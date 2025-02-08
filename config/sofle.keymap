@@ -62,11 +62,11 @@
 
         nav_num_r_layer {
 // ---------------------------------------------------------------------------------------------------------------------------------
-// |     |  /  |  7  |  8  |  9  |  -  |                   |      |      |      |      |      |      |
-// |     |  *  |  4  |  5  |  6  |  +  |                   |      | PGUP | HOME |  UP  | END  |      |
-// |     |  0  |  1  |  2  |  3  |  .  |                   |      | PGDN | LEFT | DOWN | RIGHT|      |
-// |     |     |     |     |     |     |         |  |      |      | MUTE | VOLD | VOLU | PLAY |      |
-//             |     |     |     |     |         |  |      |      |      |      |      |
+// |      |     |     |     |     |     |                  |      |      |      |      |      |      |
+// |      |  /  |  7  |  8  |  9  |  -  |                  |      | PGUP | HOME |  UP  | END  |      |
+// |      |  *  |  4  |  5  |  6  |  +  |                  |      | PGDN | LEFT | DOWN | RIGHT|      |
+// |      |  0  |  1  |  2  |  3  |  .  |        |  |      |      | MUTE | VOLD | VOLU | PLAY |      |
+//              |     |     |     |     |        |  |      |      |      |      |      |
             bindings = <
 &trans     &trans  &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans  
 &trans     &kp FSLH &kp N7 &kp N8 &kp N9 &kp MINUS                &trans &kp PG_UP &kp HOME &kp UP &kp END &trans 
