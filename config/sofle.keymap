@@ -92,7 +92,7 @@
 &trans  &trans        &trans           &trans      &trans           &trans                       &kp MINUS  &kp EQUAL  &kp BSLH   &kp LBKT  &kp RBKT  &kp GRAVE
 &trans  &kp CAPSLOCK  &kp PRINTSCREEN  &kp INSERT  &kp PAUSE_BREAK  &trans                       &kp UNDER  &kp PLUS   &kp FSLH   &kp LBRC  &kp RBRC  &kp PIPE
 &trans  &trans        &trans           &trans      &trans           &trans     &trans    &trans  &trans     &kp SEMI   &kp QMARK  &kp LT    &kp GT    &trans
-                      &trans           &trans      &trans           &trans     &trans    &trans  &trans     &trans     &trans
+                      &trans           &trans      &trans           &trans     &trans    &trans  &trans     &trans     &trans     &trans
             >;
         };
 
