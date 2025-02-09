@@ -23,6 +23,16 @@
             if-layers = <NAV_NUM_L NAV_NUM_R>;
             then-layer = <ADJUST>;
         };
+
+        numbers_left {
+            if-layers = <1 3>;
+            then-layer = <2>;
+        };
+
+        numbers_right {
+            if-layers = <3 2>;
+            then-layer = <1>;
+        };
     };
 
     keymap {
@@ -37,11 +47,11 @@
             //                | GUI | ALT  | CTRL | NAV_L|  SPACE   |  | ENT | NAV_R| BSPC  | CTRL  | DEL  |
 
             bindings = <
-&kp GRAVE         &kp N1  &kp N2     &kp N3    &kp N4  &kp N5                                        &kp N6               &kp N7  &kp N8       &kp N9        &kp N0    &kp MINUS
-&lt 3 TAB         &kp Q   &kp W      &kp E     &kp R   &kp T                                         &kp Y                &kp U   &kp I        &kp O         &kp P     &lt 3 EQUAL
-&mt LCTRL ESCAPE  &kp A   &kp S      &kp D     &kp F   &kp G                                         &kp H                &kp J   &kp K        &kp L         &kp SEMI  &kp SQT
-&kp LSHFT         &kp Z   &kp X      &kp C     &kp V   &kp B      &kp C_MUTE         &none           &kp N                &kp M   &kp COMMA    &kp DOT       &kp FSLH  &mt RALT LC(SPACE)
-                          &kp LCTRL  &kp LALT  &mo 1   &lt 2 TAB  &mt LSHFT ENTER    &mt LGUI SPACE  &mt LCTRL BACKSPACE  &mo 1   &lt 2 ENTER  &lt 3 DELETE
+&kp GRAVE                &kp N1  &kp N2     &kp N3    &kp N4  &kp N5                                        &kp N6               &kp N7  &kp N8       &kp N9        &kp N0    &kp MINUS
+&lt 2 TAB                &kp Q   &kp W      &kp E     &kp R   &kp T                                         &kp Y                &kp U   &kp I        &kp O         &kp P     &lt 1 EQUAL
+&mt LEFT_COMMAND ESCAPE  &kp A   &kp S      &kp D     &kp F   &kp G                                         &kp H                &kp J   &kp K        &kp L         &kp SEMI  &kp SQT
+&kp LSHFT                &kp Z   &kp X      &kp C     &kp V   &kp B      &kp C_MUTE         &none           &kp N                &kp M   &kp COMMA    &kp DOT       &kp FSLH  &mt RALT LC(SPACE)
+                                 &kp LCTRL  &kp LALT  &mo 3   &lt 1 TAB  &mt LSHFT ENTER    &mt LGUI SPACE  &mt LCTRL BACKSPACE  &mo 2   &lt 3 ENTER  &lt 3 DELETE
             >;
         };
 
