@@ -64,7 +64,7 @@
 &lt 2 TAB                &kp Q   &kp W      &kp E     &kp R   &kp T                                         &kp Y                &kp U   &kp I        &kp O         &kp P     &lt 1 EQUAL
 &mt LEFT_COMMAND ESCAPE  &kp A   &kp S      &kp D     &kp F   &kp G                                         &kp H                &kp J   &kp K        &kp L         &kp SEMI  &kp SQT
 &kp LSHFT                &kp Z   &kp X      &kp C     &kp V   &kp B      &kp C_MUTE         &none           &kp N                &kp M   &kp COMMA    &kp DOT       &kp FSLH  &mt RALT LC(SPACE)
-                                 &kp LCTRL  &kp LALT  &mo 3   &lt 1 TAB  &mt LSHFT ENTER    &mt LGUI SPACE  &mt LCTRL BACKSPACE  &mo 2   &lt 3 ENTER  &lt 1 DELETE
+                                 &kp LCTRL  &kp LALT  &mo 3   &lt 1 TAB  &mt LSHFT ENTER    &mt LGUI SPACE  &mt LCTRL BACKSPACE  &mo 1   &lt 3 ENTER  &lt 2 DELETE
             >;
         };
 
