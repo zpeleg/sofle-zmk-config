@@ -81,7 +81,7 @@
 
             bindings = <
 &kp GRAVE                         &kp N1  &kp N2     &kp N3    &kp N4  &kp N5                                                                    &kp N6                        &kp N7  &kp N8       &kp N9        &kp N0    &kp EQUAL
-&lt 2 TAB                         &kp Q   &kp W      &kp E     &kp R   &kp T                                                                     &kp Y                         &kp U   &kp I        &kp O         &kp P     &lt 1 MINUS
+&mt LCTRL TAB                     &kp Q   &kp W      &kp E     &kp R   &kp T                                                                     &kp Y                         &kp U   &kp I        &kp O         &kp P     &lt 1 MINUS
 &mt_balanced LEFT_COMMAND ESCAPE  &kp A   &kp S      &kp D     &kp F   &kp G                                                                     &kp H                         &kp J   &kp K        &kp L         &kp SEMI  &mt LALT SQT
 &kp LSHFT                         &kp Z   &kp X      &kp C     &kp V   &kp B                &kp C_MUTE                  &none                    &kp N                         &kp M   &kp COMMA    &kp DOT       &kp FSLH  &lt 1 LC(SPACE)
                                           &kp LCTRL  &kp LALT  &mo 3   &lt_hold_pref 1 TAB  &mt_balanced LSHFT ENTER    &mt_balanced LGUI SPACE  &mt_balanced LCTRL BACKSPACE  &mo 2   &lt 3 ENTER  &lt 1 DELETE
